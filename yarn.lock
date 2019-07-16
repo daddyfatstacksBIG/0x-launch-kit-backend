@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"0x.js@^6.0.11":
-  version "6.0.11"
-  resolved "https://registry.npmjs.org/0x.js/-/0x.js-6.0.11.tgz#33968367fc8f12a630cee67a5412b55a04b05d7a"
+"0x.js@^6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/0x.js/-/0x.js-6.0.12.tgz#a9fa66f4477f0711f8beaafd567b50e28b360a09"
   dependencies:
     "@0x/assert" "^2.1.0"
     "@0x/base-contract" "^5.1.1"
-    "@0x/contract-wrappers" "^9.1.6"
-    "@0x/order-utils" "^8.2.1"
-    "@0x/order-watcher" "^4.0.13"
+    "@0x/contract-wrappers" "^9.1.7"
+    "@0x/order-utils" "^8.2.2"
+    "@0x/order-watcher" "^4.0.14"
     "@0x/subproviders" "^4.1.1"
     "@0x/types" "^2.4.0"
     "@0x/typescript-typings" "^4.2.3"
@@ -22,12 +22,12 @@
     lodash "^4.17.11"
     web3-provider-engine "14.0.6"
 
-"@0x/abi-gen-wrappers@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/@0x/abi-gen-wrappers/-/abi-gen-wrappers-5.0.1.tgz#c3683fc7e6cc71033ab1cc8a7e616743f321583a"
+"@0x/abi-gen-wrappers@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@0x/abi-gen-wrappers/-/abi-gen-wrappers-5.0.2.tgz#23e6979cd70e43d17b12c361b34cad195fb04b6c"
   dependencies:
     "@0x/base-contract" "^5.1.1"
-    "@0x/contract-addresses" "^3.0.1"
+    "@0x/contract-addresses" "^3.0.2"
     "@0x/contract-artifacts" "^2.0.1"
 
 "@0x/assert@^2.0.10", "@0x/assert@^2.1.0":
@@ -75,20 +75,26 @@
   dependencies:
     lodash "^4.17.11"
 
+"@0x/contract-addresses@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@0x/contract-addresses/-/contract-addresses-3.0.2.tgz#3dab5e762d6a6627667cd947f273a0ccc7d7e9a7"
+  dependencies:
+    lodash "^4.17.11"
+
 "@0x/contract-artifacts@^2.0.1":
   version "2.0.1"
   resolved "https://registry.npmjs.org/@0x/contract-artifacts/-/contract-artifacts-2.0.1.tgz#055c3f0d961ff923291cbf2ee29d9ad14a9b6a65"
 
-"@0x/contract-wrappers@^9.1.6":
-  version "9.1.6"
-  resolved "https://registry.npmjs.org/@0x/contract-wrappers/-/contract-wrappers-9.1.6.tgz#4dce156052e01c2cc7106441f28169f78d631e24"
+"@0x/contract-wrappers@^9.1.7":
+  version "9.1.7"
+  resolved "https://registry.yarnpkg.com/@0x/contract-wrappers/-/contract-wrappers-9.1.7.tgz#a09e8325b3db53af51f916b105f5db1ec35fdd7e"
   dependencies:
-    "@0x/abi-gen-wrappers" "^5.0.1"
+    "@0x/abi-gen-wrappers" "^5.0.2"
     "@0x/assert" "^2.1.0"
-    "@0x/contract-addresses" "^3.0.1"
+    "@0x/contract-addresses" "^3.0.2"
     "@0x/contract-artifacts" "^2.0.1"
     "@0x/json-schemas" "^3.0.11"
-    "@0x/order-utils" "^8.2.1"
+    "@0x/order-utils" "^8.2.2"
     "@0x/types" "^2.4.0"
     "@0x/typescript-typings" "^4.2.3"
     "@0x/utils" "^4.4.0"
@@ -103,13 +109,13 @@
     lodash "^4.17.11"
     uuid "^3.3.2"
 
-"@0x/fill-scenarios@^3.0.12":
-  version "3.0.12"
-  resolved "https://registry.npmjs.org/@0x/fill-scenarios/-/fill-scenarios-3.0.12.tgz#a0fb6d2e226e62b3fd4459074fc1d3c09105ae97"
+"@0x/fill-scenarios@^3.0.13":
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/@0x/fill-scenarios/-/fill-scenarios-3.0.13.tgz#424c3ab863247b6178f1de53a5778f9cb68406c9"
   dependencies:
-    "@0x/abi-gen-wrappers" "^5.0.1"
+    "@0x/abi-gen-wrappers" "^5.0.2"
     "@0x/base-contract" "^5.1.1"
-    "@0x/order-utils" "^8.2.1"
+    "@0x/order-utils" "^8.2.2"
     "@0x/types" "^2.4.0"
     "@0x/typescript-typings" "^4.2.3"
     "@0x/utils" "^4.4.0"
@@ -127,14 +133,14 @@
     jsonschema "^1.2.0"
     lodash.values "^4.3.0"
 
-"@0x/order-utils@^8.2.1":
-  version "8.2.1"
-  resolved "https://registry.npmjs.org/@0x/order-utils/-/order-utils-8.2.1.tgz#d71d8abd4c587c6f7cbab296ddf0ea94522a415e"
+"@0x/order-utils@^8.2.1", "@0x/order-utils@^8.2.2":
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/@0x/order-utils/-/order-utils-8.2.2.tgz#8902372177b617bc95892ef356dadf50b0e67fe7"
   dependencies:
-    "@0x/abi-gen-wrappers" "^5.0.1"
+    "@0x/abi-gen-wrappers" "^5.0.2"
     "@0x/assert" "^2.1.0"
     "@0x/base-contract" "^5.1.1"
-    "@0x/contract-addresses" "^3.0.1"
+    "@0x/contract-addresses" "^3.0.2"
     "@0x/contract-artifacts" "^2.0.1"
     "@0x/json-schemas" "^3.0.11"
     "@0x/types" "^2.4.0"
@@ -149,19 +155,19 @@
     ethers "~4.0.4"
     lodash "^4.17.11"
 
-"@0x/order-watcher@^4.0.13":
-  version "4.0.13"
-  resolved "https://registry.npmjs.org/@0x/order-watcher/-/order-watcher-4.0.13.tgz#da73c71b17431f24057caa384e75e5870c951168"
+"@0x/order-watcher@^4.0.13", "@0x/order-watcher@^4.0.14":
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/@0x/order-watcher/-/order-watcher-4.0.14.tgz#132198130c76f1ea96687718bbe63274af1045d7"
   dependencies:
-    "@0x/abi-gen-wrappers" "^5.0.1"
+    "@0x/abi-gen-wrappers" "^5.0.2"
     "@0x/assert" "^2.1.0"
     "@0x/base-contract" "^5.1.1"
-    "@0x/contract-addresses" "^3.0.1"
+    "@0x/contract-addresses" "^3.0.2"
     "@0x/contract-artifacts" "^2.0.1"
-    "@0x/contract-wrappers" "^9.1.6"
-    "@0x/fill-scenarios" "^3.0.12"
+    "@0x/contract-wrappers" "^9.1.7"
+    "@0x/fill-scenarios" "^3.0.13"
     "@0x/json-schemas" "^3.0.11"
-    "@0x/order-utils" "^8.2.1"
+    "@0x/order-utils" "^8.2.2"
     "@0x/types" "^2.4.0"
     "@0x/typescript-typings" "^4.2.3"
     "@0x/utils" "^4.4.0"
@@ -3895,7 +3901,7 @@ lodash.values@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
 
-lodash@4.17.11, lodash@=4.17.11, lodash@^4.17.11:
+lodash@4.17.11, lodash@=4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -3903,7 +3909,7 @@ lodash@=4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@^4.17.10, lodash@^4.17.4:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4:
   version "4.17.14"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
 
